@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Infosec support and sales portfolio showcasing security support, incident response, and customer-facing risk enablement." />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.cdnfonts.com; font-src https://fonts.cdnfonts.com; connect-src 'self'; img-src 'self' data:; object-src 'none'; base-uri 'self'; frame-ancestors 'none';">
+  <meta name="referrer" content="no-referrer">
+  <title>Infosec Portfolio - Home</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="preloader"><span>Olaleye</span></div>
+  <header class="site-header flip-card">
+    <div class="container">
+      <div class="brand">
+        <span class="brand-name">Olaleye</span>
+        <span class="brand-tag">Infosec Specialist</span>
+      </div>
+      <nav class="main-nav" id="mainNav">
+        <a href="index.html" class="active">Home</a>
+        <a href="projects.html">Work</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-label="Toggle navigation">☰</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h2 class="title-3d">Infosec Specialist</h2>
+      <p>Helping teams resolve security incidents, improve support processes, and communicate risk clearly while driving customer value.</p>
+      <p class="cta"><a href="#contact">Let’s connect</a></p>
+    </section>
+
+    <section id="about" class="card">
+      <h3>About Me</h3>
+      <p>I’m an infosec support professional with strong sales skills, focused on incident response, security collaboration, knowledge transfer, and translating technical risk into practical business outcomes.</p>
+      <ul>
+        <li>Skills: phone/chat/email support, incident triage, SLA management, escalations, product onboarding</li>
+        <li>Certifications: Cisco (CEH), Google Analytics</li>
+        <li>Tools: Zendesk, Freshdesk, Jira Service Management, HubSpot, Confluence</li>
+      </ul>
+    </section>
+
+    <section id="skills" class="card">
+      <h3>Infosec Support Strengths</h3>
+      <div class="skill-list" id="skillList"></div>
+    </section>
+
+    <section id="projects" class="card">
+      <h3 class="title-3d">Infosec Portfolio Highlights</h3>
+      <p>I'm currently building new projects for this profile. Follow the link below to see works in progress and live case studies.</p>
+      <ul>
+        <li><strong>Infosec Support Playbooks:</strong> Created reusable incident workflows and knowledge articles for secure response, reducing resolution time and improving handoff clarity.</li>
+        <li><strong>Security Process Redesign:</strong> Implemented escalation tracking and incident triage guidance to resolve incidents faster while improving compliance visibility.</li>
+        <li><strong>Insight Reports:</strong> Built operational dashboards and root-cause summaries to reduce repeat incidents and support security-informed decision making.</li>
+      </ul>
+      <p class="cta"><a href="projects.html">Explore detailed case studies</a></p>
+    </section>
+
+    <section id="contact" class="card">
+      <h3>Contact</h3>
+      <div class="contact-icons">
+        <a class="social-button github" href="https://github.com/username" target="_blank" rel="noopener noreferrer">
+          <span class="icon">🐙</span>
+          <span class="label">GitHub</span>
+        </a>
+        <a class="social-button instagram" href="https://instagram.com/username" target="_blank" rel="noopener noreferrer">
+          <span class="icon">📸</span>
+          <span class="label">Instagram</span>
+        </a>
+        <a class="social-button twitter" href="https://twitter.com/username" target="_blank" rel="noopener noreferrer">
+          <span class="icon">🐦</span>
+          <span class="label">Twitter</span>
+        </a>
+        <a class="social-button email" href="mailto:yourname@example.com">
+          <span class="icon">✉️</span>
+          <span class="label">Email</span>
+        </a>
+      </div>
+      <h4>Quick message</h4>
+      <form id="contactForm">
+        <div class="form-row">
+          <div class="field-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="field-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+        </div>
+        <div class="field-group text-area">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit">Send message</button>
+      </form>
+      <p id="formMessage" class="form-message"></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">© 2026 nord_guelewar</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
