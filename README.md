@@ -16,4 +16,4 @@ Simple two-page static portfolio for GitHub Pages:
 
 - Replace placeholder name/email/links.
 - Add real project details and skill evidence (reports, CTF write-ups, code links).
-- Keep it static (good for secure airflow and infosec portfolio hygiene).
+- Keep it static (good for secure airflow and infosec portfolio hygiene).# mywebsite_portfolio
