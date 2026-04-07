@@ -82,7 +82,7 @@ body {
   letter-spacing: 0.2em;
   text-transform: uppercase;
   animation: pulse 4.5s ease infinite;
-  transition: color 0.25s ease, transform 0.25s ease;
+  transition: color 4.25s ease, transform 4.25s ease;
   cursor: default;
 }
 
