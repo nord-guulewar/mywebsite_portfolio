@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olaleye - Security Projects & Case Studies</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+            background: #f8fafc;
+            color: #0f172a;
+            line-height: 1.5;
+            padding: 2rem 1rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* Header */
+        .header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-bottom: 1rem;
+            color: #3b82f6;
+            text-decoration: none;
+            font-size: 0.875rem;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .subhead {
+            color: #475569;
+            font-size: 1.125rem;
+        }
+
+        /* Project cards */
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 3rem;
+        }
+
+        .card {
+            background: white;
+            border-radius: 1rem;
+            padding: 1.5rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            border: 1px solid #e2e8f0;
+        }
+
+        .card h2 {
+            font-size: 1.25rem;
+            margin-bottom: 0.5rem;
+            color: #0f172a;
+        }
+
+        .badge {
+            display: inline-block;
+            background: #e2e8f0;
+            padding: 0.25rem 0.75rem;
+            border-radius: 999px;
+            font-size: 0.75rem;
+            font-weight: 500;
+            margin: 0.75rem 0;
+            color: #334155;
+        }
+
+        .card p {
+            color: #475569;
+            margin-bottom: 1rem;
+            font-size: 0.875rem;
+        }
+
+        .result {
+            background: #f1f5f9;
+            padding: 0.75rem;
+            border-radius: 0.5rem;
+            font-size: 0.875rem;
+            font-weight: 500;
+            margin: 1rem 0;
+            border-left: 3px solid #3b82f6;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #0f172a;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 0.5rem;
+            text-decoration: none;
+            font-size: 0.875rem;
+            font-weight: 500;
+            transition: background 0.2s;
+        }
+
+        .btn:hover {
+            background: #1e293b;
+        }
+
+        .btn-outline {
+            background: transparent;
+            border: 1px solid #cbd5e1;
+            color: #0f172a;
+        }
+
+        .btn-outline:hover {
+            background: #f1f5f9;
+        }
+
+        .footer {
+            text-align: center;
+            padding-top: 2rem;
+            border-top: 1px solid #e2e8f0;
+            color: #64748b;
+            font-size: 0.875rem;
+        }
+
+        @media (max-width: 640px) {
+            h1 { font-size: 1.75rem; }
+            .projects-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <a href="/" class="back-link">← Back to portfolio</a>
+            <h1>Security Projects & Case Studies</h1>
+            <div class="subhead">Incident response playbooks · dashboards · process redesigns</div>
+        </div>
+
+        <div class="projects-grid">
+            <!-- Project 1 -->
+            <div class="card">
+                <h2>📘 Infosec Support Playbooks</h2>
+                <div class="badge">PDF · Template</div>
+                <p>Reusable incident workflows and knowledge articles for secure response — reducing resolution time and improving handoff clarity.</p>
+                <div class="result">📊 Result: First-touch resolution up 22%</div>
+                <a href="#" class="btn">Download Playbook (PDF)</a>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="card">
+                <h2>📊 Security Incident Dashboard</h2>
+                <div class="badge">Looker Studio · Live Demo</div>
+                <p>Operational dashboard tracking ticket volume, MTTR, and recurring issue types — built for SOC visibility.</p>
+                <div class="result">📊 Result: Reduced repeat incidents by 18%</div>
+                <a href="#" class="btn">View Live Dashboard</a>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="card">
+                <h2>🔐 Security Process Redesign</h2>
+                <div class="badge">Case Study · Process Map</div>
+                <p>Implemented escalation tracking and incident triage guidance to resolve incidents faster while improving compliance visibility.</p>
+                <div class="result">📊 Result: Escalations down 40% in 2 months</div>
+                <a href="#" class="btn">Read Case Study</a>
+            </div>
+
+            <!-- Project 4 - placeholder for your future work -->
+            <div class="card">
+                <h2>⚡ Phishing Triage Checklist</h2>
+                <div class="badge">Coming Soon</div>
+                <p>Step-by-step checklist for analyzing and responding to phishing reports — built for Tier 1 analysts.</p>
+                <div class="result">📊 In progress · Q2 2026</div>
+                <a href="#" class="btn btn-outline">Preview (Soon)</a>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>All playbooks and templates are redacted of sensitive data. For collaboration or consulting, <a href="/">contact me</a>.</p>
+        </div>
+    </div>
+</body>
+</html>
