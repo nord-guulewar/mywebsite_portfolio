@@ -81,7 +81,7 @@ body {
   font-size: clamp(2.5rem, 9vw, 4.5rem);
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  animation: pulse 1.5s ease infinite;
+  animation: pulse 4.5s ease infinite;
   transition: color 0.25s ease, transform 0.25s ease;
   cursor: default;
 }
