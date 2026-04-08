@@ -20,10 +20,10 @@
 
 ;(function() {
   var skillData = [
-    { name: 'Communication', level: 95, description: 'Clear status updates, empathy, and smooth collaboration across teams.' },
-    { name: 'Incident Response', level: 90, description: 'Fast triage, root-cause analysis, and secure resolution guidance.' },
-    { name: 'Ticket Management', level: 88, description: 'SLA tracking, escalation handling, and workflow optimization.' },
-    { name: 'Technical Troubleshooting', level: 92, description: 'System diagnostics, debugging, and practical issue resolution.' },
+    { name: 'Communication', level: 85, description: 'Clear status updates, empathy, and smooth collaboration across teams.' },
+    { name: 'Incident Response', level: 80, description: 'Fast triage, root-cause analysis, and secure resolution guidance.' },
+    { name: 'Ticket Management', level: 75, description: 'SLA tracking, escalation handling, and workflow optimization.' },
+    { name: 'Technical Troubleshooting', level: 82, description: 'System diagnostics, debugging, and practical issue resolution.' },
     { name: 'Knowledge Transfer', level: 82, description: 'Documentation, coaching, and strong handoffs between stakeholders.' }
   ];
 
