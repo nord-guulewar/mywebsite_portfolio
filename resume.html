@@ -1,4 +1,12 @@
-<div style="text-align: center; margin: 2rem 0;">
+<div class="button-group no-print">
+    <button id="printBtn" class="download-btn">🖨️ Print / Save as PDF</button>
+</div>
+<script>
+    document.getElementById('printBtn').addEventListener('click', () => {
+        window.print();
+    });
+</script>
+<!-- <div style="text-align: center; margin: 2rem 0;">
     <a href="/resume.html" class="btn" style="background: #334155;">📄 View Resume</a>
     <a href="#" id="downloadResumeBtn" class="btn" style="background: #059669;">⬇️ Download PDF</a>
 </div>
@@ -18,4 +26,4 @@
         © 2026 Olaleye • Infosec Portfolio
     </footer>
 </body>
-</html>
+</html> -->
