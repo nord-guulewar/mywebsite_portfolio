@@ -1,0 +1,21 @@
+<div style="text-align: center; margin: 2rem 0;">
+    <a href="/resume.html" class="btn" style="background: #334155;">📄 View Resume</a>
+    <a href="#" id="downloadResumeBtn" class="btn" style="background: #059669;">⬇️ Download PDF</a>
+</div>
+
+<script>
+    // Direct download using html2pdf library (ensure the library is loaded)
+    document.getElementById('downloadResumeBtn')?.addEventListener('click', function(e) {
+        e.preventDefault();
+        // Option 1: open resume.html and let user click PDF button there
+        window.open('/resume.html', '_blank');
+        // Option 2: if you want direct PDF generation from homepage, you'd need to load the library and fetch resume content. Simpler: redirect.
+    });
+</script>
+
+    </div>
+    <footer class="footer">
+        © 2026 Olaleye • Infosec Portfolio
+    </footer>
+</body>
+</html>

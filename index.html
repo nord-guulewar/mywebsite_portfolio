@@ -32,6 +32,20 @@
       <h2 class="title-3d">Infosec Specialist</h2>
       <p>Helping teams resolve security incidents, improve support processes, and communicate risk clearly while driving customer value.</p>
       <p class="cta"><a href="#contact">Let’s connect</a></p>
+      <div style="text-align: center; margin: 2rem 0;">
+    <a href="/resume.html" class="btn" style="background: #334155;">📄 View Resume</a>
+    <a href="#" id="downloadResumeBtn" class="btn" style="background: #059669;">⬇️ Download PDF</a>
+</div>
+
+<script>
+    // Direct download using html2pdf library (ensure the library is loaded)
+    document.getElementById('downloadResumeBtn')?.addEventListener('click', function(e) {
+        e.preventDefault();
+        // Option 1: open resume.html and let user click PDF button there
+        window.open('/resume.html', '_blank');
+        // Option 2: if you want direct PDF generation from homepage, you'd need to load the library and fetch resume content. Simpler: redirect.
+    });
+</script>
     </section>
 
     <section id="about" class="card">
